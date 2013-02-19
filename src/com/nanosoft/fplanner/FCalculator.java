@@ -26,9 +26,6 @@ public class FCalculator {
 	
 	/**
 	 * 
-	 * @param fExpectedReturn Future Value of 
-	 * @param fMonths
-	 * @param fInterestRate
 	 * @param fExpectedReturn Expected amount after n months
 	 * @param fMonths Months after which amount is expected
 	 * @param fInterestRate Interest rate pa. eg: 7.0
