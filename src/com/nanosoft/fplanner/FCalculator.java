@@ -29,6 +29,10 @@ public class FCalculator {
 	 * @param fExpectedReturn Future Value of 
 	 * @param fMonths
 	 * @param fInterestRate
+	 * @param fExpectedReturn Expected amount after n months
+	 * @param fMonths Months after which amount is expected
+	 * @param fInterestRate Interest rate pa. eg: 7.0
+
 	 * @return Monthly SIP amount required for generating the corpus.
 	 */
 	public static double calculateSIPPerMonth(double fExpectedReturn, double fMonths, double fInterestRate) {
@@ -36,6 +40,14 @@ public class FCalculator {
 	
 	}
 	
+	/**
+	 * 
+	 * @param fPrincipal Principal Amount at start
+	 * @param fInterestRate Interest Rate p.a.
+	 * @param fMonths Number of months for which amount is invested
+	 * @return Final value of Investment
+	 */
+
 	public static double calculateCompoundInterest(double fPrincipal, double fInterestRate, double fMonths) {
 		return fPrincipal * Math.pow(1 + fInterestRate/1200.0, fMonths);
 	}
