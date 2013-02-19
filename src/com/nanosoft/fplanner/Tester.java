@@ -1,0 +1,15 @@
+package com.nanosoft.fplanner;
+
+public class Tester {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Inflation = " + FCalculator.calculateInflatedValue(10000, 1, 6));
+		System.out.println("EMI for loan: " + FCalculator.calculateEMI(10.25, 2290889, 20 * 12));
+
+	}
+
+}
