@@ -6,6 +6,14 @@ public class MileStone {
 	private String m_strDescription;
 	private double m_fMonthlyInvReqd;
 	private boolean m_bIsLoan;
+	/*
+	 * initial Design for MileStone
+	 * priority
+	 * date
+	 * considered_inflation
+	 * inflation_rate
+	 * description
+	 */
 	
 	
 	public MileStone (String strDesc, double amount, int nMonths) {
