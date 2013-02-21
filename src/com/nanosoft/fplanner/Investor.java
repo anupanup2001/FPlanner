@@ -6,9 +6,16 @@ public class Investor {
 	private String m_strName;
 	private int m_nAge;
 	private ArrayList<MileStone> m_milestones;
-	public Investor(String name, int age) {
+	private double m_dSalaryPerMonth;
+	private double m_dSavePercentage;
+	private double m_dSalaryHikePercentagePerYear;
+	public Investor(String name, int age, double dSalaryPerMonth, double dSavePercentage, 
+			double dSalaryHikePercentagePerYear) {
 		m_strName = name;
 		m_nAge = age;
+		m_dSalaryPerMonth = dSalaryPerMonth;
+		m_dSavePercentage = dSavePercentage;
+		m_dSalaryHikePercentagePerYear = dSalaryHikePercentagePerYear;
 		m_milestones = new ArrayList<MileStone>();
 	}
 	
