@@ -13,6 +13,7 @@ public class Tester {
 		System.out.println("SIP required for 10000000: " + FCalculator.calculateSIPPerMonth(10000000, 30 * 12, 10));
 		Investor a = new Investor("Anup", 27, 50000, 20, 10);
 		System.out.println("Investor Details: " + a);
+		MileStone m = new MileStone("Car Purchase", 400000, 3 * 12);
 
 	}
 
