@@ -5,7 +5,7 @@ public class MileStone {
 	private double m_fAmount;
 	private String m_strDescription;
 	private double m_fMonthlyInvReqd;
-	private boolean m_bIsLoan;
+	//private boolean m_bIsLoan;
 	/*
 	 * initial Design for MileStone
 	 * priority
@@ -20,15 +20,15 @@ public class MileStone {
 		m_strDescription = strDesc;
 		m_fAmount = amount;
 		m_nHowManyMonthsLater = nMonths;
-		m_bIsLoan = false;
+		//m_bIsLoan = false;
 	}
 	
 	
-	public MileStone (String strDesc, double amount, int nMonths, double fMonthlyInvReqd) {
+	/*public MileStone (String strDesc, double amount, int nMonths, double fMonthlyInvReqd) {
 		this(strDesc, amount, nMonths);	
 		m_fMonthlyInvReqd = fMonthlyInvReqd;
 		m_bIsLoan = true;
-	}
+	}*/
 
 
 	@Override
