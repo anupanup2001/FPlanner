@@ -30,4 +30,11 @@ public class MileStone {
 		m_bIsLoan = true;
 	}
 
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Description: " + m_strDescription + " Amount: " + m_fAmount + " Months pending: " + m_nHowManyMonthsLater;
+	}
+
 }
