@@ -29,7 +29,15 @@ public class MileStone {
 		m_fMonthlyInvReqd = fMonthlyInvReqd;
 		m_bIsLoan = true;
 	}*/
-
+	
+	public int getMonthsRemaining() {
+		return m_nHowManyMonthsLater;
+	}
+	
+	public double getAmount() {
+		return m_fAmount;
+	}
+		
 
 	@Override
 	public String toString() {
