@@ -37,6 +37,10 @@ public class MileStone {
 	public double getAmount() {
 		return m_fAmount;
 	}
+	
+	public String getDesc() {
+		return m_strDescription;
+	}
 		
 
 	@Override

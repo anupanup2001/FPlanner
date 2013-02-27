@@ -25,6 +25,18 @@ public class Investor {
 	public ArrayList<MileStone> getMileStones() {
 		return m_milestones;
 	}
+	
+	public double getSalaryPerMonth() {
+		return m_dSalaryPerMonth;
+	}
+	
+	public double getSalaryHikePercentagePerYear() {
+		return m_dSalaryHikePercentagePerYear;
+	}
+	
+	public double getSavePercentage() {
+		return m_dSavePercentage;
+	}
 
 	@Override
 	public String toString() {
