@@ -9,6 +9,7 @@ public class Investor {
 	private double m_dSalaryPerMonth;
 	private double m_dSavePercentage;
 	private double m_dSalaryHikePercentagePerYear;
+	ArrayList<MonthlyFinance> m_listMonthlyFinance = new ArrayList<MonthlyFinance>();
 	public Investor(String name, int age, double dSalaryPerMonth, double dSavePercentage, 
 			double dSalaryHikePercentagePerYear) {
 		m_strName = name;
@@ -16,6 +17,7 @@ public class Investor {
 		m_dSalaryPerMonth = dSalaryPerMonth;
 		m_dSavePercentage = dSavePercentage;
 		m_dSalaryHikePercentagePerYear = dSalaryHikePercentagePerYear;
+		
 	}
 	
 	public void addMileStone(MileStone m) {
